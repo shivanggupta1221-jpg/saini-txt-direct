@@ -5,7 +5,7 @@ from os import environ
 
 API_ID = int(environ.get("API_ID", "27876620"))
 API_HASH = environ.get("API_HASH", "002573f38b397624e839d79af904b2c6")
-BOT_TOKEN = environ.get("BOT_TOKEN", "8313173390:AAEQ86B2FupRfSyixdtPgGXny2H_fzQ8sdg")
+BOT_TOKEN = environ.get("BOT_TOKEN", "")
 
 OWNER = int(environ.get("OWNER", "7149874857"))
 CREDIT = environ.get("CREDIT", "𝙎𝘼𝙄𝙉𝙄 𝘽𝙊𝙏𝙎")
@@ -20,9 +20,10 @@ if int(OWNER) not in AUTH_USERS:
     AUTH_USERS.append(int(OWNER))
   
 # .....,.....,.......,...,.......,....., .....,.....,.......,...,.......,.....,
-api_url = "http://aster-api-v3.vercel.app/"
-api_token = "yJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNzkxOTMzNDE5NSIsInRnX3VzZXJuYW1lIjoi4p61IFtvZmZsaW5lXSIsImlhdCI6MTczODY5MjA3N30.SXzZ1MZcvMp5sGESj0hBKSghhxJ3k1GTWoBUbivUe1I"
+api_url = "http://master-api-v3.vercel.app/"
+api_token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNzkxOTMzNDE5NSIsInRnX3VzZXJuYW1lIjoi4p61IFtvZmZsaW5lXSIsImlhdCI6MTczODY5MjA3N30.SXzZ1MZcvMp5sGESj0hBKSghhxJ3k1GTWoBUbivUe1I"
 # .....,.....,.......,...,.......,....., .....,.....,.......,...,.
+
 
 
 
